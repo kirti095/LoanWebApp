@@ -1,0 +1,129 @@
+.mp-container {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  color: #222;
+}
+
+.mp-hero {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+ 
+}
+
+.mp-hero-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  
+}
+
+.mp-hero-text h1 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.mp-hero-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Coverage Cards */
+.mp-coverage h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mp-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mp-card {
+  background: #f0f8ff;
+  padding: 20px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.mp-card:hover {
+  transform: translateY(-5px);
+}
+
+.mp-card img {
+  width: 220px;
+  height: 120px;
+  margin-bottom: 12px;
+}
+
+/* Timeline */
+.mp-timeline {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.mp-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mp-step {
+  background: #e0d6d6;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Tips Section */
+.mp-tips {
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 40px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mp-tips h2 {
+  margin-bottom: 15px;
+}
+
+.mp-tips ul {
+  padding-left: 20px;
+}
+
+.mp-tips li {
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.mp-cta {
+  background: linear-gradient(to right,#2563eb,#2563eb );
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.activate-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color:#2563eb;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.activate-btn:hover {
+  background-color:#fff;
+}

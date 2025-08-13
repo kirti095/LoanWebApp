@@ -1,0 +1,185 @@
+.appliance-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Banner Section */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  font-size: 16px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 8%;
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
+}
+
+.features-left {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.features-left h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.feature-box {
+  background: #fff;
+  border-left: 5px solid #2563eb;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.feature-box h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.features-right {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.features-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Apply Loan Section */
+.apply-loan {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.apply-loan h2 {
+  font-size: 28px;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.apply-loan p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.apply-btn {
+  background-color:#2563eb;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: background 0.3s ease;
+}
+.apply-btn-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.apply-btn:hover {
+  background-color:#2563eb;
+}
+
+.apply-loan img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.pay-emi-footer {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq-note {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.faq-link {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+.footer-links span {
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+}
+
+.footer-icons {
+  margin-top: 15px;
+}
+
+.footer-icons i {
+  margin: 0 10px;
+  color: #2563eb;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer-icons i:hover {
+  color: #2563eb;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #555;
+}

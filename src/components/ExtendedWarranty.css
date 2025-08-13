@@ -1,0 +1,104 @@
+.ew-container {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  padding: 0 20px;
+}
+
+/* Hero Split Layout */
+.ew-hero {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  align-items: center;
+  gap: 20px;
+}
+
+.ew-left, .ew-right {
+  flex: 1 1 45%;
+}
+
+.ew-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.ew-right h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.ew-right p {
+  margin-bottom: 20px;
+}
+
+.ew-cta-btn {
+  text-decoration: none; 
+  background: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Features */
+.ew-features {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.ew-feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.feature-card {
+  background:#f7f7f7;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.feature-card img {
+  width: 220px;
+  height: 120px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+/* Timeline */
+.ew-timeline {
+  margin: 50px 0;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.step {
+  flex: 1;
+  background:#e2e3e7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FAQ */
+.ew-faq {
+  margin-bottom: 60px;
+}
+
+.ew-faq details {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 8px;
+}

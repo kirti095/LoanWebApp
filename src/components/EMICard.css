@@ -1,0 +1,156 @@
+/* Main container */
+.emicard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+/* Header section */
+.emicard-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.emicard-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+/* Image section */
+.emicard-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.emicard-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Steps section */
+.emicard-steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.step-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 30%;
+  text-align: center;
+  min-width: 220px;
+}
+
+.step-number {
+  background-color: #333;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 0.5rem;
+}
+
+/* CTA button */
+.apply-btn-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.cta-btn {
+  padding: 0.8rem 2rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Centered info sections */
+.emicard-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.centered {
+  text-align: center;
+}
+
+.emicard-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.emicard-section ul,
+.emicard-section ol {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.emicard-section li {
+  margin-bottom: 0.5rem;
+}
+
+.faq p {
+  text-align: left;
+  max-width: 600px;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .emicard-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-card {
+    width: 90%;
+  }
+
+  .cta-btn {
+    width: 90%;
+  }
+
+  .emicard-section ul,
+  .emicard-section ol,
+  .faq p {
+    padding-left: 1rem;
+    width: 90%;
+  }
+}
