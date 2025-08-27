@@ -10,6 +10,12 @@ import Testimonials from "./components/Testimonials";
 import ApplyForm from "./components/ApplyNow";
 import Footer from "./components/Footer";
 import PayEmi from "./components/PayEmi";
+import PersonalLoan from './components/PersonalLoan';
+import EmiCard from './components/EmiCard';
+import MobileEmi from './components/mobileEmi';
+import HomeApplication from "./components/HomeApplication";
+import ExtendedWarranty from './components/ExtendedWarranty';
+import MobileProtect from './components/MobileProtect';
 
 import "./style/style.css";
 
@@ -45,6 +51,25 @@ const App = () => {
         {/*pay emi page */}
         <Route path="/pay-emi" element={<PayEmi />} />
 
+        {/*personal loan option */}
+        <Route path="/personal-loan" element={<PersonalLoan />} />
+
+        {/*emicard option */}
+        <Route path="/emi-card" element={<EmiCard />} />
+
+        {/*mobile-emi option */}
+        <Route path="/mobile-emi" element={<MobileEmi />} />
+
+        {/*homeApplication  option */}
+        <Route path="/home-application" element={<HomeApplication />} />
+
+        {/*services warrenty option */}
+        <Route path="/extended-warranty" element={<ExtendedWarranty />} />
+
+        {/*services mobile-protect option */}
+        <Route path="/mobile-protect" element={<MobileProtect />} />
+
+
         {/* fallback route */}
         <Route
           path="*"
@@ -60,3 +85,4 @@ const App = () => {
 };
 
 export default App;
+
