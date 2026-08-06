@@ -1,7 +1,7 @@
 import React from 'react';
 import './homeApplication.css';
-import bannerImg from '../image/home-appliances.webp';
-import featuresImg from '../image/member-home.jpg';
+import bannerImg from '../image/Top-Banner.jpg';
+import featuresImg from '../image/Customer.jpg';
 import applyImg from '../image/Offer1.jpg';
 
 const HomeAppliance = () => {
@@ -83,3 +83,4 @@ const HomeAppliance = () => {
 };
 
 export default HomeAppliance;
+
