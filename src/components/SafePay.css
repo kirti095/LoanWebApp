@@ -1,0 +1,152 @@
+.safepay-container {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.safepay-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: linear-gradient(to right, #2563eb,  #2563eb);
+  color: white;
+}
+
+.safepay-hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.safepay-hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.safepay-btn {
+  background: white;
+  color: #2563eb;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.safepay-btn:hover {
+  background: #ffe6e6;
+}
+
+.safepay-hero-img img {
+  max-width: 400px;
+}
+
+/* Why SafePay */
+.safepay-why {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.safepay-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.safepay-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.safepay-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Steps */
+.safepay-steps {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.safepay-step-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.safepay-step {
+  background: #2563eb;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Trust Section */
+.safepay-trust {
+  background:  #2563eb;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.safepay-trust span {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* FAQ */
+.safepay-faq {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.safepay-faq-list {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.safepay-faq-item {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.safepay-faq-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.safepay-faq-item p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.safepay-faq-item.active {
+  background: #ffe6e6;
+  border-left: 4px solid  #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .safepay-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .safepay-hero-img img {
+    margin-top: 20px;
+    max-width: 90%;
+  }
+}
